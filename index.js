@@ -1,10 +1,18 @@
-const title = React.createElement(
-	'h1',//tag type of element to be created
-    {id:'title',className:'header'}, //Properties of the above tag
-    'Hello world'
-)
+const { render } = ReactDOM
 
-ReactDOM.render(
-    title,
+const style = {
+    backgroundColor : 'orange',
+    color:'white',
+    fontFamily:'verdana'
+}
+
+
+    
+render(
+    <h1 id='title'
+        className='header'
+        style={style}>
+    Hello World
+    </h1>,
     document.getElementById('react-container')
 )
