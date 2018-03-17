@@ -12,13 +12,12 @@ Verify the app by going to http://localhost:3000
 ---
 
 Steps for Babel static transpiling - 
-npm init
-npm install babel-cli@6.18.0 --save-dev
-sudo npm install -g babel-cli
-npm install babel-preset-react@6.16.0 --save-dev
-lynda-react manisht$ n
-pm install babel-preset-latest@6.16.0 --save-dev
-npm install babel-preset-stage-0@6.16.0 --save-dev
-
-babel ./src/index.js --out-file ./dist/bundle.js
+npm init . 
+npm install babel-cli@6.18.0 --save-dev . 
+sudo npm install -g babel-cli . 
+npm install babel-preset-react@6.16.0 --save-dev . 
+npm install babel-preset-latest@6.16.0 --save-dev . 
+npm install babel-preset-stage-0@6.16.0 --save-dev . 
+  
+babel ./src/index.js --out-file ./dist/bundle.js . 
 
