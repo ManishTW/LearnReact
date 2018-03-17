@@ -35,7 +35,7 @@ webpack
 OR (without install globally and using webpack use it from node_modules folder)<br/>
 ./node_modules/.bin/webpack <br/>
 7. Now the bundle.js file is created inside dist/assets folder. <br/>
-8. 
+8. npm start
 
 
 
