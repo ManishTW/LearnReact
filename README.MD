@@ -26,7 +26,7 @@ babel ./src/index.js --out-file ./dist/bundle.js <br/>
 Steps to move from using babel transpiler directly to webpack module bundler - <br/>
 <br/>
 1. Add webpack.config.js file - the Dev server in webpack allows for hot reloading unlike httpster. <br/>
-2. Remove the generated bundle.js from inside dist (I am not removing the file here for learning purpose. But this file will not be used, as the new generated bunldle.js file will be inside assets folder in dist and this will be referred from index.html) <br/>
+2. Remove the generated bundle.js from inside dist as well as .babelrc(I am not removing the file here for learning purpose. But this file will not be used, as the new generated bunldle.js file will be inside assets folder in dist and this will be referred from index.html) <br/>
 3. npm install webpack@1.13.3 --save-dev <br/>
 4. npm install babel-loader@6.2.5 --save-dev <br/>
 5. npm install webpack-dev-server@1.16.2 --save-dev <br/>
@@ -37,6 +37,14 @@ OR (without install globally and using webpack use it from node_modules folder)<
 7. Now the bundle.js file is created inside dist/assets folder. <br/>
 8. npm start
 
+
+----
+
+1. npm install react@15.3.2 --save <br/>
+2. npm install react-dom@15.3.2 --save <br/>
+3. We will use another loader in webpack-config.js for loading json. So along with adding the same as loader in the webpack-config.js file, install as <br/>
+npm install json-loader@0.5.4 --save-dev <br/>
+4. npm start
 
 
 

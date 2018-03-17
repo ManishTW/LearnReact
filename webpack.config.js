@@ -15,12 +15,17 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js/,
+                test: /\.js$/,
                 exclude: /(node_modules)/,
                 loader: ["babel-loader"],
                 query : {
                     presets:["latest","react","stage-0"]
                 }
+            } , 
+            {
+                test : /\.json$/,
+                exclude: /(node_modules)/,
+                loader:"json-loader"
             }
         ]
     }
