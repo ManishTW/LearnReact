@@ -47,5 +47,10 @@ npm install json-loader@0.5.4 --save-dev <br/>
 4. npm start
 
 
-
-
+--------
+Adding CSS to webpack build - <br/>
+1. npm install autoprefixer-loader@3.2.0 --save-dev <br/>
+2. npm install css-loader@0.25.0 --save-dev <br/>
+3. npm install sass-loader@4.0.2 --save-dev <br/>
+4. npm install node-sass@3.10.1 --save-dev <br/>
+t. npm install style-loader@0.13.1 --save-dev

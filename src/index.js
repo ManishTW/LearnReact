@@ -4,7 +4,7 @@ import { hello, goodbye} from './lib'
     
 render(
     <div>
-        {hello},
+        {hello}
         {goodbye}
     </div>,
     document.getElementById('react-container')
